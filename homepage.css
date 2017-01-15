@@ -1,0 +1,197 @@
+body {
+	background-color: #F4E8E8;
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 0;
+}
+
+img {
+	height: 450px;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
+#header a{
+	display: block;
+	width: 1000px;
+	background-color: #CAD2E2;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 0;	
+}
+
+
+.subhead {
+	color: #CAD2E2;
+	background-color: #4788AC;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*homepage.html*/
+
+div.subhead {
+	text-align: left; 
+	padding-left: 10px;
+	margin-top: 15px;
+
+}
+
+.subheadnews {
+	text-align: left;
+	padding-left: 20px;
+
+}
+
+.newstitle {
+	text-decoration: underline;
+}
+
+.news {
+	border: dotted 1px;
+	background-color: #F0EFEF;
+	/*display: table;*/
+	padding: 0px 0px 20px 20px;
+	margin: 10px auto;
+}
+
+
+
+.readmore a{
+	display: block;
+	width: 150px;
+	border: solid 1px #C5556E;
+	background-color: #C5556E;
+	padding: 10px 30px;
+	text-align: center; 
+	float: right;
+	margin-bottom: 15px;
+	
+}
+
+.hot {
+	clear: right;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.hottest {
+	display: inline-block;
+	text-align: center;
+
+}
+
+.hottestmovie {
+	background-color: #F0EFEF;
+	width: 475px;
+	margin-right: 20px;
+}
+
+.hottestactor {
+	background-color: #F0EFEF;
+	width: 475px;
+	margin-left: 20px;
+}
+
+.hottestname a{
+	display: block;
+	width: 300px;
+	background-color: #C5556E;
+	padding:10px 0px;
+	margin: auto;	
+}
+
+.hottestimg {
+	margin-bottom: 0;
+}
+
+/*movie.html*/
+
+#name {
+	color: #2B386C;
+	background-color: #E8B2BB;
+	padding-left: 15px;
+	/*margin-bottom: 0;*/
+}
+
+h3.subhead {
+	text-align: left;
+	padding-left: 15px;
+}
+
+.img {
+	float: left;
+	margin-left: 25px;
+	margin-bottom: 10px;
+
+}
+
+/*.subtop {
+	display: block;
+}*/
+
+.sub1 {
+	display: block;
+	width: 600px;
+	float: right;
+
+}
+
+.sub2 {
+	width: 1000px;
+	/*border: solid;*/
+	float: left;
+	padding: auto;
+	margin: auto;
+}
+
+.plot {
+	max-height: 200px;
+}
+
+.castorder {
+	padding-left: 20px;
+}
+
+.castlist {
+	display: inline-block;
+	padding: 10px;
+}
+
+.cast {
+	max-height: 300px;
+	display: block;
+	text-align: center;
+}
+
+li.cast {
+	color:white; 
+	background-color: black;
+}
+
+/*actor.html*/
+
+.biography {
+	max-height: 200px;
+	overflow-y:auto
+}
+
